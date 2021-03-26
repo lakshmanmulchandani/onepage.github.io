@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  margin-right: 0;
+}
+
+body {
+  background-color: #737373;
+}
+
+/* Home section */
+
+.home {
+  background-image: url(https://wallpapercave.com/wp/wp2637268.jpg);
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+}
+
+.navbar {
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-color: white;
+  background-image: url(https://tcgplayerpro-www.s1.umbraco.io/media/3631/naruto_boruto_card_game_naruto_and_naruto_shippuden_set_banner-01-2x.jpg);
+}
+
+#navbar ul li {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  padding: 3vh;
+  margin: 2vh;
+  margin-top: 5 vh;
+  background-color: inherit;
+  position: relative;
+}
+
+#navbar ul li a {
+  content: "";
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+#navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#navbar ul li:hover::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 5vh;
+  color: WHITE;
+  z-index: 1;
+  font-family: sans-serif;
+  text-align: right;
+  margin-right: 20vh;
+  margin-top: 40vh;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.welcome h1::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #009688;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.welcome h1:hover::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: #009688;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+}
+
+/* Home section end */
+
+/* Main Characters*/
+
+#Main {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/48db8cc8-bc54-4ac4-a791-ef75d6416986/dcsgik3-db1704c9-f3e9-44ab-97b7-0f4211d99830.jpg/v1/fill/w_1024,h_768,q_75,strp/naruto_background_5_by_pungpp_dcsgik3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03NjgiLCJwYXRoIjoiXC9mXC80OGRiOGNjOC1iYzU0LTRhYzQtYTc5MS1lZjc1ZDY0MTY5ODZcL2Rjc2dpazMtZGIxNzA0YzktZjNlOS00NGFiLTk3YjctMGY0MjExZDk5ODMwLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.AFj_4b3TobsKqn8BDOVbbd55XkBJ5ZCHD5_gb6tsr2g);
+  background-size: cover;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-family: serif;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.Characters {
+  width: 20%;
+  display: inline-block;
+  border-style: solid;
+  border: 2 px solid brown;
+  padding: 2%;
+  margin: 1%;
+  background-color: white;
+  font-style: oblique;
+  border-radius: 10%;
+  align-items: center;
+  height: 30vh;
+
+  margin: 8vh;
+}
+
+.Characters img {
+  display: block;
+  width: 20vh;
+  height: 20vh;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main Characters ends */
+
+#Terminology {
+  background-image: url(https://wallpapercave.com/wp/wp2637239.jpg);
+  height: 150vh;
+  background-size: cover;
+}
+
+.table {
+  display: flex;
+  margin: 5vh;
+  margin-left: 10vh;
+}
+
+.tabl2 {
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 30vh;
+}
+
+h2 {
+  color: white;
+  font-size: 3vh;
+}
+
+th,
+td {
+  border: 1px solid white;
+  margin: 5vh;
+  padding: 5vh;
+}
+
+td {
+  color: white;
+}
+
+.Description {
+  width: 40vh;
+}
